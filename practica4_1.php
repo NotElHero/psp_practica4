@@ -10,22 +10,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <meta name="author" content="Javier Villacorta">
     <title></title>
 </head>
-
 <body>
     <form action="practica4_1.1.php" method="post">
         <input type="number" id="cantidad" name="campo1" placeholders="Inserta un dato" />
         <br>
-
-        <input type="radio" id="eur" name="currency" value="eur">
-        <label for="eur">Euro</label><br>
-        <input type="radio" id="usd" name="currency" value="usd">
-        <label for="usd">Dolar</label><br>
-        <input type="radio" id="btc" name="currency" value="btc">
-        <label for="btc">Bitcoin</label>
+        <input type="radio" id="eur" name="currency" value="eur">Euro
         <br>
-
+        <input type="radio" id="usd" name="currency" value="usd">Dolar
+        <br>
+        <input type="radio" id="btc" name="currency" value="btc">Bitcoin
+        <br>
         <input type="submit" value="Enviar" name="enviar" />
     </form>
 </body>
-
 </html>
