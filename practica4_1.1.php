@@ -8,17 +8,19 @@
         $valorUsd = 1;
         $valorBtc = 17036;
         
-        if (isset($currency['eur'])) {
+        if ($currency == 'eur') {
             echo "El valor en USD es de: ", $c1 * $valorUsd;
             echo "<br>";
             echo "El valor en BTC es de: ", $c1 * $valorBtc;
-        }elseif (isset($currency['usd'])) {
+        }elseif ($currency == 'usd') {
             echo "El valor en EUR es de: ", $c1 * $valorEur;
             echo "<br>";
             echo "El valor en BTC es de: ", $c1 * $valorBtc;
-        }elseif (isset($currency['btc'])) {
+        }elseif ($currency == 'btc') {
             echo "El valor en USD es de: ", $c1 * $valorUsd;
             echo "<br>";
             echo "El valor en EUR es de: ", $c1 * $valorEur;
         }
     }
+    
+?>
