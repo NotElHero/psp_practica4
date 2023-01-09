@@ -17,7 +17,7 @@
             echo "<br>";
             echo "El valor en BTC es de: ", $c1 * $valorBtc;
         }elseif ($currency == 'btc') {
-            echo "El valor en USD es de: ", $c1 * $valorUsd;
+            echo "El valor en BTC es de: ", $c1 * $valorUsd;
             echo "<br>";
             echo "El valor en EUR es de: ", $c1 * $valorEur;
         }
